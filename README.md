@@ -3,7 +3,7 @@ About r-rcppalgos
 
 Home: https://github.com/jwood000/RcppAlgos, https://gmplib.org/, https://github.com/kimwalisch/primesieve, http://libdivide.com, https://github.com/kimwalisch/primecount, http://ridiculousfish.com/, http://sweet.ua.pt/tos/software/prime_sieve.html
 
-Package license: GPL-2.0-only
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppalgos-feedstock/blob/main/LICENSE.txt)
 
