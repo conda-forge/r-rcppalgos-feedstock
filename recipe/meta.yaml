@@ -1,4 +1,4 @@
-{% set version = "2.6.0" %}
+{% set version = "2.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppAlgos_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppAlgos/RcppAlgos_{{ version }}.tar.gz
-  sha256: 0ae729be6aa56e6347dfca2b9f317f3d2b524e80e921be87c31ab2a11680bb85
+  sha256: c1730424665f6f4ce831be638aee031d86bce18119ac95e1fddab5afd18144cb
 
 build:
   merge_build_host: true  # [win]
   skip: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
