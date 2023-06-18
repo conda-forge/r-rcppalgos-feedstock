@@ -1,11 +1,22 @@
+About r-rcppalgos-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppalgos-feedstock/blob/main/LICENSE.txt)
+
 About r-rcppalgos
-=================
+-----------------
 
 Home: https://github.com/jwood000/RcppAlgos, https://gmplib.org/, https://github.com/kimwalisch/primesieve, http://libdivide.com, https://github.com/kimwalisch/primecount, http://ridiculousfish.com/, http://sweet.ua.pt/tos/software/prime_sieve.html
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppalgos-feedstock/blob/main/LICENSE.txt)
+Summary: Provides optimized functions and flexible combinatorial iterators implemented in C++ with 'Rcpp' for solving problems in combinatorics and computational mathematics. Utilizes parallel programming via 'RcppThread' for maximal performance. Also makes use of the RMatrix class from the 'RcppParallel' library. There are combination/permutation functions with constraint parameters that allow for generation of all results of a vector meeting specific criteria (e.g. generating integer partitions/compositions or finding all combinations such that the sum is between two bounds). Capable of generating specific combinations/permutations (e.g. retrieve only the nth lexicographical result) which sets up nicely for parallelization as well as random sampling. Gmp support permits exploration where the total number of results is large (e.g. comboSample(10000, 500, n = 4)). Additionally, there are several high performance number theoretic functions that are useful for problems common in computational mathematics. Some of these functions make use of the fast integer division library 'libdivide'. The primeSieve function is based on the segmented sieve of Eratosthenes implementation by Kim Walisch. It is also efficient for large numbers by using the cache friendly improvements originally developed by Tomás Oliveira. Finally, there is a prime counting function that implements Legendre's formula based on the work of Kim Walisch.
+About r-rcppalgos
+-----------------
+
+Home: https://github.com/jwood000/RcppAlgos, https://gmplib.org/, https://github.com/kimwalisch/primesieve, http://libdivide.com, https://github.com/kimwalisch/primecount, http://ridiculousfish.com/, http://sweet.ua.pt/tos/software/prime_sieve.html
+
+Package license: GPL-2.0-or-later
 
 Summary: Provides optimized functions and flexible combinatorial iterators implemented in C++ with 'Rcpp' for solving problems in combinatorics and computational mathematics. Utilizes parallel programming via 'RcppThread' for maximal performance. Also makes use of the RMatrix class from the 'RcppParallel' library. There are combination/permutation functions with constraint parameters that allow for generation of all results of a vector meeting specific criteria (e.g. generating integer partitions/compositions or finding all combinations such that the sum is between two bounds). Capable of generating specific combinations/permutations (e.g. retrieve only the nth lexicographical result) which sets up nicely for parallelization as well as random sampling. Gmp support permits exploration where the total number of results is large (e.g. comboSample(10000, 500, n = 4)). Additionally, there are several high performance number theoretic functions that are useful for problems common in computational mathematics. Some of these functions make use of the fast integer division library 'libdivide'. The primeSieve function is based on the segmented sieve of Eratosthenes implementation by Kim Walisch. It is also efficient for large numbers by using the cache friendly improvements originally developed by Tomás Oliveira. Finally, there is a prime counting function that implements Legendre's formula based on the work of Kim Walisch.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9701&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppalgos-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9701&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9701&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppalgos-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppalgos-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9701&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppalgos-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9701&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppalgos-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr>
