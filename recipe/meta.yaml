@@ -1,4 +1,4 @@
-{% set version = "2.10.0" %}
+{% set version = "2.10.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppAlgos_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppAlgos/RcppAlgos_{{ version }}.tar.gz
-  sha256: d8406094ef13b963401bd6266f809b05f848f96f0f3695262bd2be3c75b4dc47
+  sha256: 0e89bc6337a8324ce0358b42b5c8ed6698ef73acc012ded1d05fa9fb988ca058
 
 build:
   skip: true  # [win]
